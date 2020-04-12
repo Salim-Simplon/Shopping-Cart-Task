@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://www.izoa.fr/img/p/1/0/2/6/4/10264-large.jpg);
+  background-position: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#navd {
+  padding-left: 50px;
+}
+
+#navd2 {
+  padding-left: 750px;
+}
+
+a.link {
+  position: fixed;
+  right: 30px;
+  top: 80px;
+  opacity: 0.9;
+}
+
+a.link img {
+  border-radius: 10px;
+}
+
+#back {
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 180px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+p {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1130px) {
+  p {
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+#hot {
+  padding-top: 20px;
+}
+
+#bot {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.692);
+  margin-top: 132px;
+}

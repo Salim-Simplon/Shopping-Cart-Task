@@ -1,0 +1,159 @@
+body {
+  background-image: url(https://www.izoa.fr/img/p/1/0/2/6/4/10264-large.jpg);
+  background-position: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a.link {
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  opacity: 0.9;
+}
+
+a.link img {
+  border-radius: 10px;
+}
+
+header {
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+#navd {
+  padding-left: 30px;
+}
+
+#navd2 {
+  padding-left: 400px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: #000000;
+  margin: 0px 190px 40px 190px;
+}
+
+.band-name-large {
+  background-color: rgba(255, 255, 255, 0.747);
+  font-size: 8em;
+}
+
+form.form-example {
+  display: table;
+  font-size: large;
+  text-align: left;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+.sty {
+  margin-right: 55px;
+}
+
+.sty2 {
+  margin-right: 23px;
+}
+
+.sty3 {
+  margin-right: 48px;
+}
+
+.content-section {
+  background-color: white;
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+h2 {
+  padding-top: 20px;
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  font-size: 2.5em;
+}
+
+/****/
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+input {
+  margin-right: 40px;
+}
+
+/***/
+
+.cart-total {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+/***/
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.692);
+  margin-top: 50px;
+  margin-left: 190px;
+  margin-right: 190px;
+}

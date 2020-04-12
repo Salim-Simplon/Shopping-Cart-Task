@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Card.css" />
+
+    <title>Shopping Card</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="navd" class="navbar-brand" href="#">Coffee Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="navd2"
+          class="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="../Accueil/Accueil.html"
+              >Accueil <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#formule">Formule du Jour</a>
+            <a class="nav-item nav-link" href="../Accueil/Accueil.html#rejoint"
+              >Nous rejoindre</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <a href="#" class="link" title="partagez"
+      ><img
+        src="https://www.pngitem.com/pimgs/m/76-760394_coffee-shop-logo-example-image-cup-of-coffee.png"
+        style="width: 100px; height: 80px;"
+    /></a>
+    <h1 class="band-name band-name-large">Coffee Shop</h1>
+    <section class="container content-section">
+      <h2 id="formule">Formule du jour</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Café</span>
+          <img
+            class="shop-item-image"
+            src="https://www.lebabi.net/mfupdata/1431775603cafes.jpg"
+          />
+          <form action="" method="POST" class="formulaire form-example ff">
+            <div class="form-example">
+              <label for="name" class="sty">Prix : </label>
+              <input type="text" name="prix" value="2500" size="10" />
+              <label for="name">en TND </label>
+            </div>
+            <div class="form-example">
+              <label for="name" class="sty2">Quantité : </label>
+              <input
+                type="text"
+                name="quantité"
+                id="quantité"
+                onblur="calculTotalPrix()"
+                size="10"
+              />
+              <label for="name">par Unité</label>
+            </div>
+            <div class="form-example">
+              <label for="name" class="sty3">Total :</label>
+              <input type="text" name="total" id="total" size="10" />
+              <label for="name">en TND </label>
+            </div>
+          </form>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Croissant</span>
+          <img
+            class="shop-item-image"
+            src="https://image.freepik.com/photos-gratuite/delicieux-croissant-frais-blanc-croissant-isole_122732-2.jpg"
+          />
+          <form action="" method="POST" class="formulaire form-example ff">
+            <div class="form-example">
+              <label for="name" class="sty">Prix : </label>
+              <input type="text" name="prix" value="1200" size="10" />
+              <label for="name">en TND </label>
+            </div>
+            <div class="form-example">
+              <label for="name" class="sty2">Quantité : </label>
+              <input
+                type="text"
+                name="quantité"
+                id="quantité"
+                onblur="calculTotalPrix()"
+                size="10"
+              />
+              <label for="name">par Unité</label>
+            </div>
+            <div class="form-example">
+              <label for="name" class="sty3">Total :</label>
+              <input type="text" name="total" id="total" size="10" />
+              <label for="name">en TND </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <a href="../bye/Bye.html">
+        <button class="btn btn-light btn-purchase" type="button">
+          ACHETER
+        </button></a
+      >
+    </section>
+    <footer>
+      <!--Facebook-->
+      <a class="btn-floating btn-lg btn-fb" type="button" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <!--Twitter-->
+      <a class="btn-floating btn-lg btn-tw" type="button" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <!--Instagram-->
+      <a class="btn-floating btn-lg btn-gplus" type="button" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </footer>
+    <script src="Card.js" async></script>
+  </body>
+</html>

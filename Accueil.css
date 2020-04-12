@@ -1,0 +1,124 @@
+body {
+  background-image: url(https://www.izoa.fr/img/p/1/0/2/6/4/10264-large.jpg);
+  background-position: center;
+  margin: 0px 200px 50px 200px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#navd2 {
+  padding-left: 430px;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.747);
+  margin-bottom: 50px;
+  font-size: 600%;
+}
+
+a.link {
+  position: fixed;
+  right: 30px;
+  top: 0px;
+  opacity: 0.9;
+}
+
+a.link img {
+  border-radius: 10px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.692);
+  font-size: x-large;
+}
+
+#présent {
+  padding: 20px 60px 20px 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #ffffff91;
+}
+
+#rejoint {
+  padding-top: 30px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+form.form-example {
+  display: table;
+  font-size: large;
+  padding-left: 220px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+@media screen and (max-width: 1130px) {
+  header {
+    font-size: 500%;
+  }
+  #présent {
+    font-size: 80%;
+  }
+  form.form-example {
+    font-size: medium;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.boutton {
+  text-align: right;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+span {
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: #0062cc;
+  border-bottom: 2px solid #0062cc;
+}
+
+#rejoint1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.box {
+  padding: 0px 0px;
+}
+
+.box-part {
+  background: #fff;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+}
+.text {
+  margin: 20px 0px;
+}
+
+.fa {
+  color: #4183d7;
+}
