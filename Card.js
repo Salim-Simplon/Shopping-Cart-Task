@@ -1,18 +1,15 @@
-var Formulaire = document.getElementsByClassName("formulaire")[0];
+var Formulaire = document.getElementsByClassName("formulaire");
+var panier = document.getElementById("panier");
 
 function calculTotalPrix() {
-  let panier = 0;
+  let panierTotal = 0;
   for (let i = 0; i < Formulaire.length; i++) {
     var total =
-      document.getElementsByClassName("formulaire")[i].elements["prix"].value *
-      document.getElementsByClassName("formulaire")[i].elements["quantité"]
-        .value;
-    document.getElementsByClassName("formulaire")[i].elements[
-      "total"
-    ].value = total;
-    /*
-    panier += total;
-    alert("Prix total " + panier);
-    */
+      Formulaire[i].elements["prix"].value *
+      Formulaire[i].elements["quantité"].value;
+    Formulaire[i].elements["total"].value = total;
+
+    panierTotal += total;
   }
+  panier.value = panierTotal;
 }
